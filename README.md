@@ -107,7 +107,7 @@ After completing the installation and sourcing your workspace, you can launch th
         ros2 launch rangefinder rangefinder_launch.py serial_port:=/dev/ttyACM0
         ```
         Replace `/dev/ttyACM0` with the actual serial port your EY09A rangefinder is connected to.
-        These could be '/dev/ttyS0' or '/dev/ttyAMA0' ( for UART ) you can check for this  by using
+        These could be `/dev/ttyS0` or `/dev/ttyAMA0` ( for UART ) you can check for this  by using
         ```bash
         ls /dev/tty*
         ```
