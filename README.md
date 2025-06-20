@@ -1,6 +1,3 @@
-Here's a refined version of your installation steps, suitable for a `README.md` file in a Git repository. It provides more context, clarifies commands, and includes important prerequisites.
-
------
 
 # ROS 2 Driver for EY09A Laser Rangefinder
 
