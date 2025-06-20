@@ -1,0 +1,2 @@
+[console_scripts]
+rangefinder_sdk = rangefinder_pkg.rangefinder_sdk:main
