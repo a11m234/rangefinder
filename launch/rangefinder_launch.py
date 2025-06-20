@@ -25,7 +25,7 @@ def generate_launch_description():
         baud_rate_arg,
         frame_id_arg,
         Node(
-            package='rangefinder_pkg',
+            package='rangefinder',
             executable='rangefinder_sdk',
             name='rangefinder_data_node',
             output='screen',

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'rangefinder_pkg'
+package_name = 'rangefinder'
 
 setup(
     name=package_name,
