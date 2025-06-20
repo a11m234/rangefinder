@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: rangefinder-pkg
-Version: 0.0.0
-Summary: ROS 2 driver for 1D laser rangefinder EY09A
-Maintainer: akshai
-Maintainer-email: akshai
-License: TODO: License declaration
