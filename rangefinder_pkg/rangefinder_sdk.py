@@ -12,7 +12,7 @@ class LidarReader(Node):
         self.publisher_ = self.create_publisher(Range, 'rangefinder/range', 10)
         self.timer = None # Timer will be set up after serial connection
         self.serial_port = None
-        self.declare_parameter('serial_port', '/dev/ttyUSB0') # Default serial port
+        self.declare_parameter('serial_port', '/dev/ttyS3') # Default serial port
         self.declare_parameter('baud_rate', 115200) # Default baud rate
         self.declare_parameter('frame_id', 'rangefinder_link') # Frame ID for the sensor data
 
